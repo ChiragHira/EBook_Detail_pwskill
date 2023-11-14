@@ -1,0 +1,84 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:  lightcyan;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #3498db;
+}
+
+.form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 60%; /* Adjusted width */
+    margin: 10px;
+    display: inline-block; /* Make input inline-block */
+}
+
+button {
+    padding: 8px 15px;
+    font-size: 14px;
+    background: linear-gradient(to bottom, #2ecc71, #27ae60);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; /* Make button inline-block */
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #218c5e, #1e8449);
+}
+
+#results {
+    margin-top: 20px;
+}
+
+/* Style for the book results */
+.result-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.result-item:hover {
+    background-color: #d4e6f1;
+}
+
+.result-item h3 {
+    color: #3498db;
+    margin-bottom: 8px;
+}
+
+.result-item p {
+    color: #555;
+}
